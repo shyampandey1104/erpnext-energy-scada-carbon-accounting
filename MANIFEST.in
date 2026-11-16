@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include carbon *.css
+recursive-include carbon *.csv
+recursive-include carbon *.html
+recursive-include carbon *.ico
+recursive-include carbon *.js
+recursive-include carbon *.json
+recursive-include carbon *.md
+recursive-include carbon *.png
+recursive-include carbon *.py
+recursive-include carbon *.svg
+recursive-include carbon *.txt
+recursive-exclude carbon *.pyc
