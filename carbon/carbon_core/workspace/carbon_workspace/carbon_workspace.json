@@ -1,30 +1,104 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Erpnext Energy Scada Carbon Accounting Workspace\",\"level\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Erpnext Energy Scada Carbon Accounting Volume Trend",
+   "label": "Erpnext Energy Scada Carbon Accounting Volume Trend"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Erpnext Energy Scada Carbon Accounting Workspace\", \"level\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Erpnext Energy Scada Carbon Accounting Operations\"}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Audit & Compliance\"}}]",
  "creation": "2026-04-01 10:00:00.000000",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "octicon octicon-book",
+ "icon": "octicon octicon-package",
  "idx": 0,
  "is_hidden": 0,
  "label": "Erpnext Energy Scada Carbon Accounting",
- "links": [],
+ "links": [
+  {
+   "label": "Operational Documents",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Energy Scada Carbon Accounting Entry",
+   "label": "Erpnext Energy Scada Carbon Accounting Entry",
+   "link_to": "Erpnext Energy Scada Carbon Accounting Entry",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "label": "Audit & Reports",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Energy Scada Carbon Accounting Audit Log",
+   "label": "Erpnext Energy Scada Carbon Accounting Audit Log",
+   "link_to": "Erpnext Energy Scada Carbon Accounting Audit Log",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "is_query_report": 1,
+   "label": "Erpnext Energy Scada Carbon Accounting Summary",
+   "link_to": "Erpnext Energy Scada Carbon Accounting Summary",
+   "link_type": "Report",
+   "type": "Link"
+  },
+  {
+   "label": "Configuration",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Energy Scada Carbon Accounting Settings",
+   "label": "Erpnext Energy Scada Carbon Accounting Settings",
+   "link_to": "Erpnext Energy Scada Carbon Accounting Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  }
+ ],
  "modified": "2026-04-01 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Carbon_Core",
  "name": "Erpnext Energy Scada Carbon Accounting",
  "owner": "Administrator",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Erpnext Energy Scada Carbon Accounting Entry",
+   "label": "Recent Erpnext Energy Scada Carbon Accounting Entries"
+  }
+ ],
  "roles": [
   {
    "role": "System Manager"
+  },
+  {
+   "role": "Accounts User"
   }
  ],
  "sequence_id": 1,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Erpnext Energy Scada Carbon Accounting Entrys",
+   "link_to": "Erpnext Energy Scada Carbon Accounting Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "label": "System Settings",
+   "link_to": "Erpnext Energy Scada Carbon Accounting Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "label": "Compliance Digest",
+   "link_to": "Erpnext Energy Scada Carbon Accounting Summary",
+   "type": "Report"
+  }
+ ],
  "title": "Erpnext Energy Scada Carbon Accounting"
 }
